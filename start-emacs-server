@@ -1,0 +1,3 @@
+#!/bin/bash -eux
+
+screen -S emacs-server -d -m emacs -nw --eval '(server-start)'
