@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# this file is for sourcing, not executing directly
+
+export EDITOR=emacsclient
+eval `ssh-agent -s`
+ssh-add ~/.ssh/primary_id
